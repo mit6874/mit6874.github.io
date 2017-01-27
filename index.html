@@ -4,186 +4,66 @@ layout: default
 
 <div>
 
-  These notes accompany the Stanford CS class <a href="http://cs231n.stanford.edu/">CS231n: Convolutional Neural Networks for Visual Recognition</a>. 
-  <br>
-  For questions/concerns/bug reports regarding contact <a href="http://cs.stanford.edu/people/jcjohns/">Justin Johnson</a> regarding the assignments, or contact <a href="cs.stanford.edu/people/karpathy/">Andrej Karpathy</a> regarding the course notes. You can also submit a pull request directly to our <a href="https://github.com/cs231n/cs231n.github.io">git repo</a>.
-  <br>
-  We encourage the use of the <a href="https://hypothes.is/">hypothes.is</a> extension to annote comments and discuss these notes inline.
+
 </div>
 
 <div class="home">
   <div class="materials-wrap">
+
+    <div class="module-header">Course description</div>
+      Welcome to a new approach to computational problems in the life sciences.   This subject is not an encyclopedic summary of contemporary methods in systems biology and genomics.   Rather, we will explore both conventional and deep learning approaches to key problems in the life sciences, comparing and contrasting their power and limits.   <br><br>
+
+      Our aim is to enable you to evaluate a wide variety of solutions to key problems you will face in this rapidly developing field, and enable you to execute on new enabling solutions that can have large impact. 
+
+  	As part of the subject you will become an expert in using modern cloud resources to implement your solutions to challenging problems, first in problem sets that span a carefully chosen set of tasks, and then in an independent project.   You will be programming using Python and TensorFlow in Jupyter Notebooks on the Google Cloud, a nod to the importance of carefully documenting your work so it can be precisely reproduced by others.
+
+
+    <div class="module-header">Prerequisites</div>
+	   You should be comfortable with calculus, linear algebra, (Python) programming, probability, and introductory molecular biology.   This will be a fast paced course, and it is targeted towards students that are both mathematically and computational capable.  There are many other subjects at MIT that teach overviews of computational biology that are less demanding, we would be happy to recommend other options if you find this subject is not what you desire. 
     
-    <div class="module-header">Winter 2016 Assignments</div>
 
+	
+	<div class="module-header">Class meeting times and places.</div>
+
+    Lecture:  TR1-2.30 (4-270)
+    <br> Recitation: R4 (66-160), F4 (66-160) 
+
+	<div class="module-header">Syllabus</div>
+    Detailed syllabus can be found <a href="syllabus.html">here</a>.
+  
+  <div class="module-header">Contact</div>
+    You should feel free to contact the lecturer and the TAs about any questions through <a href='mailto:6.874staff@mit.edu'>6.874staff@mit.edu</a>. The best way to get detailed questions answered is to attend TA office hours and recitation. <br>
+        
+  <div class="module-header">Office hours</div>
+  <div class="materials-item"></div>
     <div class="materials-item">
-      <a href="assignments2016/assignment1/">
-        Assignment #1: Image Classification, kNN, SVM, Softmax, Neural Network
-      </a>
+        David Gifford (gifford@mit.edu): Office hours by appointment
+    </div>
+    
+    <div class="materials-item">
+        Jonas Mueller (jonasm@mit.edu) :Tues 12-1pm (Stata G5 lounge)
     </div>
 
     <div class="materials-item">
-      <a href="assignments2016/assignment2/">
-        Assignment #2: Fully-Connected Nets, Batch Normalization, Dropout,
-        Convolutional Nets
-      </a>
+        Haoyang Zeng (haoyangz@mit.edu): Wed 2:30-3:30pm (Stata G5 lounge)
     </div>
 
     <div class="materials-item">
-      <a href="assignments2016/assignment3/">
-        Assignment #3: Recurrent Neural Networks, Image Captioning,
-        Image Gradients, DeepDream
-      </a>
+        Michael Z Sun (micsun@mit.edu):   Mon 1-2pm (Stata G5 lounge)<br>
     </div>
+        
+  <div class="module-header">Grading</div>
+    Grading will be based upon three programming-intensive problem sets (40%), a comprehensive exam (30%), and a final project (30%).   Class participation both in lecture and recitation will be used to adjust grades.   Attendance in lecture is important as the class moves quickly and you will need to be present.   There will be an option for some students to give presentations on relevant research papers from the syllabus list. If you opt to present a paper in class it will be graded and substitute for a problem set of your choice.   For 6.874, 20.490, and HST.506[J] there will be an extra section on each problem set that is specialized by course (6, 20, HST).
 
-    <!--
-    <div class="module-header">Winter 2015 Assignments</div>
 
-    <div class="materials-item">
-      <a href="assignment1/">
-        Assignment #1: Image Classification, kNN, SVM, Softmax
-      </a>
-    </div>
+     <div class="module-header">Project</div>
+       This subject has a substantial deep learning project component.   Projects will be completed either as a team of two or individually.   6.874 students must complete an individual project unless permission from the teaching staff is given to work as a team.   You are free to chose a problem in the life sciences and develop a deep learning solution using the subject’s cloud resources.   Ideas will be provided along with example data, and you can consult the teaching staff to get advice for other ideas or to refine your own ideas.
 
-    <div class="materials-item">
-      <a href="assignment2/">
-        Assignment #2: Neural Networks, ConvNets I
-      </a>
-    </div>
+    <div class="module-header">Textbook</div>
+        We will be using the book “Deep Learning” by Goodfellow, Bengio, and Courville. You can find the book online <a href='http://deeplearningbook.org'>here</a>. You can purchase a hard copy  <a href='https://mitpress.mit.edu/books/deep-learning'>here</a> or on Amazon.
 
-    <div class="materials-item">
-      <a href="assignment3/">
-        Assignment #3: ConvNets II, Transfer Learning, Visualization
-      </a>
-    </div>
-  -->
-
-    <div class="module-header">Module 0: Preparation</div>
-
-    <div class="materials-item">
-      <a href="python-numpy-tutorial/">
-        Python / Numpy Tutorial
-      </a>
-    </div>
-
-    <div class="materials-item">
-      <a href="ipython-tutorial/">
-        IPython Notebook Tutorial
-      </a>
-    </div>
-
-    <div class="materials-item">
-      <a href="terminal-tutorial/">
-        Terminal.com Tutorial
-      </a>
-    </div>
-
-    <div class="materials-item">
-      <a href="aws-tutorial/">
-        AWS Tutorial
-      </a>
-    </div>
-
-	 <!-- hardcoding items here to force a specific order -->
-    <div class="module-header">Module 1: Neural Networks</div>
-
-    <div class="materials-item">
-      <a href="classification/">
-        Image Classification: Data-driven Approach, k-Nearest Neighbor, train/val/test splits
-      </a>
-      <div class="kw">
-        L1/L2 distances, hyperparameter search, cross-validation
-      </div>
-    </div>
-
-    <div class="materials-item">
-      <a href="linear-classify/">
-         Linear classification: Support Vector Machine, Softmax
-      </a>
-      <div class="kw">
-        parameteric approach, bias trick, hinge loss, cross-entropy loss, L2 regularization, web demo
-      </div>
-    </div>
-
-    <div class="materials-item">
-      <a href="optimization-1/">
-        Optimization: Stochastic Gradient Descent
-      </a>
-      <div class="kw">
-        optimization landscapes, local search, learning rate, analytic/numerical gradient
-      </div>
-    </div>
-
-    <div class="materials-item">
-      <a href="optimization-2/">
-        Backpropagation, Intuitions
-      </a>
-      <div class="kw">
-        chain rule interpretation, real-valued circuits, patterns in gradient flow
-      </div>
-    </div>
-
-    <div class="materials-item">
-      <a href="neural-networks-1/">
-          Neural Networks Part 1: Setting up the Architecture
-      </a>
-      <div class="kw">
-        model of a biological neuron, activation functions, neural net architecture, representational power
-      </div>
-    </div>
-
-    <div class="materials-item">
-      <a href="neural-networks-2/">
-          Neural Networks Part 2: Setting up the Data and the Loss
-      </a>
-      <div class="kw">
-          preprocessing, weight initialization, batch normalization, regularization (L2/dropout), loss functions
-      </div>
-    </div>
-
-    <div class="materials-item">
-      <a href="neural-networks-3/">
-        Neural Networks Part 3: Learning and Evaluation
-      </a>
-      <div class="kw">
-        gradient checks, sanity checks, babysitting the learning process, momentum (+nesterov), second-order methods, Adagrad/RMSprop, hyperparameter optimization, model ensembles
-      </div>
-    </div>
-
-    <div class="materials-item">
-      <a href="neural-networks-case-study/">
-          Putting it together: Minimal Neural Network Case Study
-      </a>
-      <div class="kw">
-        minimal 2D toy data example
-      </div>
-    </div>
-
-    <div class="module-header">Module 2: Convolutional Neural Networks</div>
-
-    <div class="materials-item">
-      <a href="convolutional-networks/">
-        Convolutional Neural Networks: Architectures, Convolution / Pooling Layers
-      </a>
-      <div class="kw">
-          layers, spatial arrangement, layer patterns, layer sizing patterns, AlexNet/ZFNet/VGGNet case studies, computational considerations
-      </div>
-    </div>
-
-    <div class="materials-item">
-      <a href="understanding-cnn/">
-        Understanding and Visualizing Convolutional Neural Networks
-      </a>
-      <div class="kw">
-        tSNE embeddings, deconvnets, data gradients, fooling ConvNets, human comparisons
-      </div>
-    </div>
-
-    <div class="materials-item">
-      <a href="transfer-learning/">
-        Transfer Learning and Fine-tuning Convolutional Neural Networks
-      </a>
-    </div>
+    <div class="module-header">Tutorials</div>
+    We collected a series of pointers to tutorials on Numpy, Tensorflow, Google Cloud and Conda <a href="tutorials/main/">here</a>.
  
   </div>
 </div>

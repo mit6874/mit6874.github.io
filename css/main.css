@@ -43,7 +43,7 @@ a:visited { color: #205caa; }
 
 .module-header {
   font-size: 24px;
-  color: #8C1515;
+  color: #000000;
   margin-top: 20px;
   margin-bottom: 5px;
 }
@@ -52,7 +52,7 @@ a:visited { color: #205caa; }
   font-size: 18px;
 }
 .materials-item a{
-  color: #333;
+  color: #000000;
   display: block;
   padding: 3px;
 }
@@ -60,7 +60,7 @@ a:visited { color: #205caa; }
   border-bottom: 1px solid #CCC;
 }
 .materials-item:nth-child(even) {
-  background-color: #f7f6f1;
+  background-color: #e3f6ff;
 }
 
 /* Custom CSS rules for content */
@@ -126,7 +126,7 @@ a:visited { color: #205caa; }
 .site-header {
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  background-color: #8C1515;
+  background-color: #FFFFFF;
 }
 
 .site-title,
@@ -138,7 +138,7 @@ a:visited { color: #205caa; }
   line-height: 56px;
   position: relative;
   z-index: 1;
-  color: #FFF;
+  color: #1776cc;
   font-weight: 100;
 }
 

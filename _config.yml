@@ -1,11 +1,9 @@
 # Site settings
-title: CS231n Convolutional Neural Networks for Visual Recognition
-email: karpathy@cs.stanford.edu
-description: "Course materials and notes for Stanford class CS231n: Convolutional Neural Networks for Visual Recognition."
+title: "6.874  Computational Systems Biology: Deep Learning in the Life Sciences"
+description: "Course materials and notes for MIT class 6.874  Computational Systems Biology: Deep Learning in the Life Sciences"
 baseurl: ""
-url: "http://cs231n.github.io"
-twitter_username: cs231n
-github_username:  cs231n
+url: "http://mit6874.github.io"
+#url: "127.0.0.1"
 
 # Build settings
 markdown: kramdown
