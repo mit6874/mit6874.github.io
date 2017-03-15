@@ -38,11 +38,20 @@ conda install numpy==1.10.4
 pip install numpy==1.10.4
 ```
 
+
 #### Create an enviroment named "myenv" with numpy and scipy installed
 
 ```bash
 conda create --name myenv numpy scipy
 ```
+
+#### Create an environment according to a spefication yaml file (which we will provide for you for each pset)
+
+```bash
+conda env create -f pset1_env.yml
+```
+The actual name of the enviroment can be found in the yaml file.
+
 
 #### Activate an environment named "myenv"
 
