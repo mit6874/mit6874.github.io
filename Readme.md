@@ -3,7 +3,7 @@ The official website for MIT EECS class 6.874 Computational Systems Biology: Dee
 
 - `index.html`: the landing page of the website. This page has hyperlinks that point to sylabus, tutorials and other resources.
 - `sylabus.html`: the detailed sylabuss.
-- `tutorials` folder: the the tutorials
+- `tutorials` folder: the tutorials
   - `main.md`: a content page for tutorials
   - `conda-tutorial.md`: a conda tutorial
   - `google-cloud-tutorial.md`: a google cloud tutorial
