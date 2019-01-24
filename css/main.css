@@ -35,6 +35,10 @@ a:visited { color: #205caa; }
   zoom: 1;
 }
 
+table {
+  font-size: smaller;
+}
+
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
