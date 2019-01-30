@@ -4,7 +4,7 @@ title: Conda Tutorial
 permalink: /tutorials/conda-tutorial/
 ---
 
-Conda is a powerful package management software for Python. It's widely used in the scientific community and in data science platforms such as [Anaconda](https://www.continuum.io).
+Conda is a powerful package management software for Python. It's widely used in the scientific community and in data science platforms such as [Anaconda](https://www.anaconda.com/).
 
 With conda, we can create "enviroments", or bundles of packages of particular versions, that are designed for each specific application or use case.
 
@@ -15,7 +15,7 @@ With conda, we can create "enviroments", or bundles of packages of particular ve
 
 ## Install conda
 
-Simply follow the instructions [here](http://conda.pydata.org/docs/install/quick.html) to install conda. You can verify installation by `conda list`, and you should be able to see a list of packages installed.
+Simply follow the instructions [here](http://docs.anaconda.com/anaconda/install/) to install conda. You can verify installation by `conda list`, and you should be able to see a list of packages installed.
 
 Along with conda, a new Python and pip has also been installed . You can verify by `which python` and `which pip`, and you should find the path under a folder called "miniconda2/bin". This also means that all of your previously installed packages will NOT be used anymore as they are not managed by conda.
 
@@ -34,9 +34,15 @@ conda list
 
 ```bash
 ## Either works
-conda install numpy==1.10.4
-pip install numpy==1.10.4
+conda install numpy
+pip install numpy
 ```
+
+#### Install TensorFlow (using pip)
+
+Install TensorFlow with pip instead of conda (pip TensorFlow packages are more recent).
+
+See [TensorFlow docs](https://www.tensorflow.org/install/pip).
 
 
 #### Create an enviroment named "myenv" with numpy and scipy installed

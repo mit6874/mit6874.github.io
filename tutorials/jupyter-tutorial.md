@@ -4,18 +4,17 @@ title: Jupyter Tutorial
 permalink: /tutorials/jupyter-tutorial/
 ---
 
-In this class, we will use [Jupyter notebooks](http://jupyter.org/) for the
-assignments. Jupyter notebooks provide an web browser-based programming enviroment where you can execude code in pieces, display the output figure, and annotate in Markdown *in situ*. With these properties, it's been widely used in the scientific community to make research project reproducible.
+In this class, we will use [Jupyter notebooks](https://jupyter.org/) for the assignments. Jupyter notebooks provide an web browser-based programming enviroment where you can execude code in blocks, display the output figure, and annotate in Markdown *in situ*. With these properties, it's been widely used in the scientific community to make research project reproducible.
 
 ## Set up a Jupyter server
+
 A jupyter server is a hub that can host many notebook instances.
 
-#### On Google Cloud
-Please refer to our another [tutorial](https://github.com/mit6874/mit6874.github.io/blob/master/tutorials/google-cloud-tutorial.md).
+### On Google Cloud
 
-#### If you can't use Google Cloud
+Please refer to the official [Google Cloud tutorial](https://cloud.google.com/datalab/docs/quickstart).
 
-
+### On your local machine
 
 First you should install jupyter by:
 
