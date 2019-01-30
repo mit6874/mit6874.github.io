@@ -15,9 +15,9 @@ With conda, we can create "enviroments", or bundles of packages of particular ve
 
 ## Install conda
 
-Simply follow the instructions [here](http://docs.anaconda.com/anaconda/install/) to install conda. You can verify installation by `conda list`, and you should be able to see a list of packages installed.
+Simply follow the instructions [here](http://docs.anaconda.com/anaconda/install/) to install conda (Python 3 version). You can verify installation by `conda list`, and you should be able to see a list of packages installed.
 
-Along with conda, a new Python and pip has also been installed . You can verify by `which python` and `which pip`, and you should find the path under a folder called "miniconda2/bin". This also means that all of your previously installed packages will NOT be used anymore as they are not managed by conda.
+Along with conda, Python and pip has also been installed. You can verify by `which python` and `which pip`, and you should find the path under a folder called "miniconda3/bin". This also means that all of your previously installed packages will NOT be used anymore as they are not managed by conda.
 
 However, the previously installed packages are still there. To use the system Python and pip, simply do `/usr/bin/python` or `/usr/bin/pip`.
 

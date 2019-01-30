@@ -53,12 +53,7 @@ This will automatically open a browser tab. If not, manually open a new webpage 
 Note that you can only access the sub-directories of the folder where you ran `jupyter notebook`. So make sure you start the server outside of the folder that you put data and notebooks.
 
 ## Start a new notebook
-Navigate to the folder that you want to create a notebook in. Click on "New" on the right side of the console and the select "Python2"
-
-<div class='fig figcenter'>
-  <img src='/assets/jupyter/create.png'>
-</div>
-
+Navigate to the folder that you want to create a notebook in. Click on "New" on the right side of the console and the select "Python 3"
 
 ## Program in notebook
 There are many detailed tutorials online. Here we provide some pointers to tutorials and examples that you might find useful:
