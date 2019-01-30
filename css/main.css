@@ -39,6 +39,9 @@ table {
   font-size: smaller;
 }
 
+ul {
+  list-style-type: none;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
