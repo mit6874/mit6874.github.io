@@ -41,8 +41,10 @@ Click *upload* to upload the homework materials to your datalab and start workin
 
 ## Working locally
 You will need to set up a python environment and install Jupyter. We strongly recommend using [Anaconda](https://www.anaconda.com/download/#macos) because it will automatically install python and Jupyter notebook and help manage packages efficiently.
+
 ### Installing Conda
 Download and install Anaconda [here](https://www.anaconda.com/download/): https://www.anaconda.com/download/ following the instruction [here](http://docs.anaconda.com/anaconda/install): http://docs.anaconda.com/anaconda/install. We recommend using **python 2.7** version, but you can always switch to python 3 using conda environmnet. 
+
 ### Installing Jupyter notebook without Conda
 If you already have your own python environment and don't feel like to use Conda, you can still install Jupyter with `pip`:
 ```bash
@@ -54,6 +56,7 @@ OR if you Python 3 installed:
 python3 -m pip install --upgrade pip
 python3 -m pip install jupyter
 ```
+
 ### Running Jupyter notebook
 Once you install Anoconda, jupyter is automatically installed already. You can start the jupyter server from the homework directory you will be working on with this command:
 ```bash
