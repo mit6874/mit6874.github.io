@@ -53,7 +53,7 @@ When you are ready to start using Cloud Datalab again (or if your terminal comma
 You will need to set up a Python environment and install Jupyter. We strongly recommend using [Anaconda with Python 3.7](https://www.anaconda.com/download/#macos) because it will automatically install Python and Jupyter notebook and help manage packages efficiently.
 
 ### Installing Conda
-Download and install Anaconda [here](https://www.anaconda.com/download/): https://www.anaconda.com/download/ following the instruction [here](http://docs.anaconda.com/anaconda/install): http://docs.anaconda.com/anaconda/install. We recommend using **Python 3**. 
+Download and install Anaconda [here](https://www.anaconda.com/download/) following the instruction [here](http://docs.anaconda.com/anaconda/install). We recommend using **Python 3**. 
 
 ### Installing Jupyter notebook and other dependencies without Conda
 If you already have your own Python environment and don't feel like to use Conda, you can still install Jupyter with `pip`:
