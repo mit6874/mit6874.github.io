@@ -19,6 +19,7 @@ Deep learning requires lot of computational resources, so for this class we intr
 ```bash
 gcloud init
 ```
+
 ### Set up and launch Cloud Datalab
 Following instructions [here](https://cloud.google.com/datalab/docs/quickstart#steps_to_set_up_and_open_cloud_datalab): https://cloud.google.com/datalab/docs/quickstart#steps_to_set_up_and_open_cloud_datalab. Install `datalab` with gcloud:
 ```bash
