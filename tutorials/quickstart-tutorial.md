@@ -1,4 +1,10 @@
-# Getting Started with the Jupyter notebooks
+---
+layout: page
+title: Quick-start tutorial for 6.874
+permalink: /tutorials/conda-tutorial/
+---
+
+# Getting started
 In this class, we will use [Jupyter notebooks](http://jupyter.org/) for all the
 assignments. Jupyter notebooks provide an web browser-based programming enviroment where you can execude code in pieces, display the output figure, and annotate in Markdown *in situ*. With these properties, it's been widely used in the scientific community to make research project reproducible. 
 
