@@ -31,13 +31,23 @@ Then create a datalab instance
 datalab create datalab-instance-name
 ```
 After selecting a zone (pick any number from the shown list), it will initialize the instance and establish an SSH access automatically for you. Once prompted, point your web browser at [http://localhost:8081](http://localhost:8081) to
-start using datalab.If everything worked correctly, you should see a screen like this:
+start using datalab. If everything worked correctly, you should see a screen like this:
 
 <div class='fig figcenter'>
   <img src='/assets/googlecloud.png'>
 </div>
 
-Click *upload* to upload the homework materials to your datalab and start working on problem set 1 by clicking through `ps1.ipynb`.
+Click *upload* to upload the homework materials to your datalab and start working on your problem sets by clicking through `***.ipynb`.
+
+### Pricing
+There is no charge for using Google Cloud Datalab. However, you do pay for any Google Cloud Platform resources you use with Cloud Datalab (compute and storage resources, etc.). E.g. you incur costs from the time of creation to the time of deletion of the Cloud Datalab VM instance. **Keep in mind that you only have limited budget with $125 coupon so don't let your instance run forever!**
+
+### Stopping an instance
+Run the following command to stop your Cloud Datalab instance to avoid incurring unnecessary costs when you want to pause using Cloud Datalab
+```bash
+datalab stop instance-name
+```
+When you are ready to start using Cloud Datalab again (or if your terminal command window is closed or interrupted while running datalab and you want to reconnect), run `datalab connect instance-name` command to restart the instance. You can also stop, restart, and manage your VM instances in the [Google Compute Engine](https://console.cloud.google.com/compute) any time.
 
 ## Working locally
 You will need to set up a Python environment and install Jupyter. We strongly recommend using [Anaconda with Python 3.7](https://www.anaconda.com/download/#macos) because it will automatically install Python and Jupyter notebook and help manage packages efficiently.
@@ -95,4 +105,4 @@ directory:
   <img src='/assets/ipynotebook.png'>
 </div>
 
-Click through the `ps1.ipynb` and start working on your problem set! More tutorials about how to use Jupyter Notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
+Click through the `ps*.ipynb` and start working on your problem set! More tutorials about how to use Jupyter Notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
