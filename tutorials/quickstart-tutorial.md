@@ -47,7 +47,7 @@ Run the following command to stop your Cloud Datalab instance to avoid incurring
 ```bash
 datalab stop instance-name
 ```
-When you are ready to start using Cloud Datalab again (or if your terminal command window is closed or interrupted while running datalab and you want to reconnect), run `datalab connect instance-name` command to restart the instance.
+When you are ready to start using Cloud Datalab again (or if your terminal command window is closed or interrupted while running datalab and you want to reconnect), run `datalab connect instance-name` command to restart the instance. You can also stop, restart, and manage your VM instances in the [Google Compute Engine](https://console.cloud.google.com/compute) any time.
 
 ## Working locally
 You will need to set up a python environment and install Jupyter. We strongly recommend using [Anaconda](https://www.anaconda.com/download/#macos) because it will automatically install python and Jupyter notebook and help manage packages efficiently.
