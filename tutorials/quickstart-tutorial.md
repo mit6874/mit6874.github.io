@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quick-start tutorial for 6.874
-permalink: /tutorials/quickstart-tutorial/
+permalink: /tutorials/quickstart-tutorial
 ---
 
 # Getting started
