@@ -30,7 +30,7 @@ Then create a datalab instance
 ```bash
 datalab create datalab-instance-name
 ```
-After selecting a zone (pick any number from the shown list), it will initialize the instance and establish an SSH access automatically for you. Once prompted, point your web browser at http://localhost:8081 to
+After selecting a zone (pick any number from the shown list), it will initialize the instance and establish an SSH access automatically for you. Once prompted, point your web browser at [http://localhost:8081](http://localhost:8081) to
 start using datalab.If everything worked correctly, you should see a screen like this:
 
 <div class='fig figcenter'>
@@ -62,7 +62,7 @@ Once you install Anoconda, jupyter is automatically installed already. You can s
 ```bash
 jupyter notebook
 ```
-Once Jupyter is running, point your web browser at http://localhost:8888 to
+Once Jupyter is running, point your web browser at [http://localhost:8888](http://localhost:8888) to
 start using IPython notebooks. If everything worked correctly, you should
 see a screen like this, showing all available IPython notebooks in the current
 directory:
