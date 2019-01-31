@@ -3,7 +3,7 @@ layout: page
 title: Tutorials
 permalink: /tutorials/main/
 ---
-
+- [Quickstart tutorial](quickstart-tutorial.md)
 - Python / NumPy
 	- [Official NumPy tutorial](https://docs.scipy.org/doc/numpy/user/quickstart.html)
 	- [Stanford CS231n NumPy tutorial](http://cs231n.github.io/python-numpy-tutorial/) 
