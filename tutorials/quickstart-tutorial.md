@@ -6,10 +6,8 @@ permalink: /tutorials/quickstart-tutorial/
 
 # Getting started
 In this class, we will use [Jupyter notebooks](http://jupyter.org/) for all the
-assignments. Jupyter notebooks provide an web browser-based programming enviroment where you can execude code in pieces, display the output figure, and annotate in Markdown *in situ*. With these properties, it's been widely used in the scientific community to make research project reproducible. 
-
-You can work on your assignment either **locally** or on a virtual machine
-through [**Google Cloud**](https://cloud.google.com/). The following instructions will give you a quick-start guide for both ways. If you already have a python environment and Jupyter notebook set up on your local machine and don't want to learn about Google Cloud for now, you can skip the following instructions and proceed ahead to `mnist_lr.ipynb`. We have more detailed tutorials for Google Cloud and other useful tools on course website: https://mit6874.github.io/tutorials/main/ 
+assignments. Jupyter notebooks provide an web browser-based programming enviroment where you can execude code in pieces, display the output figure, and annotate in Markdown *in situ*. With these properties, it's been widely used in the scientific community to make research project reproducible. You can work on your assignment either **locally** or on a virtual machine
+through [**Google Cloud**](https://cloud.google.com/). The following instructions will give you a quick-start guide for both ways. 
 
 ## Working from Google Cloud
 Deep learning requires lot of computational resources, so for this class we introduce Google Cloud Platform to run and store your models for your convenience. You will each be provided with a coupon for $125, which roughly translates to 10 hours of compute time/week. You will use the same account for the entire semester - including the final project - so don't spend it all in one place!
@@ -37,7 +35,7 @@ start using datalab.If everything worked correctly, you should see a screen like
   <img src='figs/googlecloud.png'>
 </div>
 
-Click *upload* to upload the homework materials to your datalab and start working on Pset 0 by clicking through `mnist_lr.ipynb`.
+Click *upload* to upload the homework materials to your datalab and start working on Pset 1 by clicking through `mnist_lr.ipynb`.
 
 ## Working locally
 You will need to set up a python environment and install Jupyter. We strongly recommend using [Anaconda](https://www.anaconda.com/download/#macos) because it will automatically install python and Jupyter notebook and help manage packages efficiently.
@@ -68,4 +66,4 @@ directory:
   <img src='figs/ipynotebook.png'>
 </div>
 
-Click through the `mnist_lr.ipynb` and start working on your Pset 0! More tutorials about how to use Jupyter Notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html): https://jupyter-notebook.readthedocs.io/en/stable/notebook.html.
+Click through the `mnist_lr.ipynb` and start working on your Pset 1! More tutorials about how to use Jupyter Notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html): https://jupyter-notebook.readthedocs.io/en/stable/notebook.html.
