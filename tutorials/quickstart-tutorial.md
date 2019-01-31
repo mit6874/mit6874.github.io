@@ -36,7 +36,7 @@ start using datalab.If everything worked correctly, you should see a screen like
   <img src='/assets/googlecloud.png'>
 </div>
 
-Click *upload* to upload the homework materials to your datalab and start working on Pset 1 by clicking through `mnist_lr.ipynb`.
+Click *upload* to upload the homework materials to your datalab and start working on Pset 1 by clicking through `pset1.ipynb`.
 
 ## Working locally
 You will need to set up a python environment and install Jupyter. We strongly recommend using [Anaconda](https://www.anaconda.com/download/#macos) because it will automatically install python and Jupyter notebook and help manage packages efficiently.
@@ -67,4 +67,4 @@ directory:
   <img src='/assets/ipynotebook.png'>
 </div>
 
-Click through the `mnist_lr.ipynb` and start working on your Pset 1! More tutorials about how to use Jupyter Notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html): https://jupyter-notebook.readthedocs.io/en/stable/notebook.html.
+Click through the `pset1.ipynb` and start working on your Pset 1! More tutorials about how to use Jupyter Notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html): https://jupyter-notebook.readthedocs.io/en/stable/notebook.html.
