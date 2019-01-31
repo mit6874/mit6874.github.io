@@ -37,7 +37,17 @@ start using datalab.If everything worked correctly, you should see a screen like
   <img src='/assets/googlecloud.png'>
 </div>
 
-Click *upload* to upload the homework materials to your datalab and start working on Pset 1 by clicking through `pset1.ipynb`.
+Click *upload* to upload the homework materials to your datalab and start working on your problem sets by clicking through `***.ipynb`.
+
+### Pricing
+There is no charge for using Google Cloud Datalab. However, you do pay for any Google Cloud Platform resources you use with Cloud Datalab (compute and storage resources, etc.). E.g. you incur costs from the time of creation to the time of deletion of the Cloud Datalab VM instance. **Keep in mind that you only have limited budget with $125 coupon so don't let your instance run forever!**
+
+### Stopping an instance
+Run the following command to stop your Cloud Datalab instance to avoid incurring unnecessary costs when you want to pause using Cloud Datalab
+```bash
+datalab stop instance-name
+```
+When you are ready to start using Cloud Datalab again (or if your terminal command window is closed or interrupted while running datalab and you want to reconnect), run `datalab connect instance-name` command to restart the instance.
 
 ## Working locally
 You will need to set up a python environment and install Jupyter. We strongly recommend using [Anaconda](https://www.anaconda.com/download/#macos) because it will automatically install python and Jupyter notebook and help manage packages efficiently.
@@ -71,4 +81,4 @@ directory:
   <img src='/assets/ipynotebook.png'>
 </div>
 
-Click through the `pset1.ipynb` and start working on your Pset 1! More tutorials about how to use Jupyter Notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html): https://jupyter-notebook.readthedocs.io/en/stable/notebook.html.
+Click through the `***.ipynb` and start working on your problem sets! More tutorials about how to use Jupyter Notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html): https://jupyter-notebook.readthedocs.io/en/stable/notebook.html.
