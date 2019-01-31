@@ -32,7 +32,7 @@ After selecting a zone (pick any number from the shown list), it will initialize
 start using datalab.If everything worked correctly, you should see a screen like this:
 
 <div class='fig figcenter'>
-  <img src='figs/googlecloud.png'>
+  <img src='/assets/googlecloud.png'>
 </div>
 
 Click *upload* to upload the homework materials to your datalab and start working on Pset 1 by clicking through `mnist_lr.ipynb`.
@@ -63,7 +63,7 @@ see a screen like this, showing all available IPython notebooks in the current
 directory:
 
 <div class='fig figcenter'>
-  <img src='figs/ipynotebook.png'>
+  <img src='/assets/ipynotebook.png'>
 </div>
 
 Click through the `mnist_lr.ipynb` and start working on your Pset 1! More tutorials about how to use Jupyter Notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html): https://jupyter-notebook.readthedocs.io/en/stable/notebook.html.
