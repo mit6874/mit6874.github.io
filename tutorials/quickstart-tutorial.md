@@ -53,7 +53,7 @@ When you are ready to start using Cloud Datalab again (or if your terminal comma
 You will need to set up a Python environment and install Jupyter. We strongly recommend using [Anaconda with Python 3.7](https://www.anaconda.com/download/#macos) because it will automatically install Python and Jupyter notebook and help manage packages efficiently.
 
 ### Installing Conda
-Download and install Anaconda [here](https://www.anaconda.com/download/) following the instruction [here](http://docs.anaconda.com/anaconda/install). We recommend using **Python 3**. 
+Download and install Anaconda [here](https://www.anaconda.com/download/): https://www.anaconda.com/download/ following the instruction [here](http://docs.anaconda.com/anaconda/install): http://docs.anaconda.com/anaconda/install. We recommend using **Python 3**. 
 
 ### Installing Jupyter notebook and other dependencies without Conda
 If you already have your own Python environment and don't feel like to use Conda, you can still install Jupyter with `pip`:
@@ -75,6 +75,8 @@ python3 -m pip install scipy
 
 ### Installing TensorFlow and dependencies
 
+If you are working with Python 3.6 or lower, install TensorFlow 1.12.0 using the following commands:
+
 See [official TensorFlow install instructions](https://www.tensorflow.org/install/pip).
 
 TensorFlow without GPU support:
@@ -84,11 +86,27 @@ python -m pip install --upgrade tensorflow
 
 TensorFlow with GPU support:
 
-Requires a nVidia graphics card with compute capability >= 3.0, recent nVidia drivers, CUDA 9.0 and cuDNN.
+Requires a nVidia graphics card with compute capability >= 3.0, recent nVidia drivers, CUDA 9.0 and cuDNN >= 7.2.
 
 See [official TensorFlow page about GPU support](https://www.tensorflow.org/install/gpu).
 ```bash
 python -m pip install --upgrade tensorflow-gpu
+```
+
+If you are working with Python 3.7 (which is included in the current Anaconda release), install TensorFlow 1.13 nightly builds:
+
+TensorFlow without GPU support:
+```bash
+python -m pip install --upgrade tf-nightly
+```
+
+TensorFlow with GPU support:
+
+Requires a nVidia graphics card with compute capability >= 6.0, recent nVidia drivers, CUDA 10.0 and cuDNN 7.4.
+
+See [official TensorFlow page about GPU support](https://www.tensorflow.org/install/gpu).
+```bash
+python -m pip install --upgrade tf-nightly-gpu
 ```
 
 ### Running Jupyter notebook
