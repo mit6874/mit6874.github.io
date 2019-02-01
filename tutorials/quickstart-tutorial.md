@@ -95,7 +95,7 @@ python -m pip install --upgrade tf-nightly-gpu
 
 #### Python 3.6 and older
 
-If you are working with Python 3.6 or lower, install TensorFlow 1.12.0 using the following commands:
+If you are working with Python 3.6 or older, install TensorFlow 1.12.0 using the following commands:
 
 See [official TensorFlow install instructions](https://www.tensorflow.org/install/pip).
 
