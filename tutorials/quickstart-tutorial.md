@@ -75,6 +75,26 @@ python3 -m pip install scipy
 
 ### Installing TensorFlow and dependencies
 
+#### Python 3.7
+
+If you are working with Python 3.7 (which is included in the current Anaconda release), install TensorFlow 1.13 nightly builds.
+
+TensorFlow without GPU support:
+```bash
+python -m pip install --upgrade tf-nightly
+```
+
+TensorFlow with GPU support:
+
+Requires a nVidia graphics card with compute capability >= 6.0, recent nVidia drivers, CUDA 10.0 and cuDNN 7.4.
+
+See [official TensorFlow page about GPU support](https://www.tensorflow.org/install/gpu).
+```bash
+python -m pip install --upgrade tf-nightly-gpu
+```
+
+#### Python 3.6 and older
+
 If you are working with Python 3.6 or lower, install TensorFlow 1.12.0 using the following commands:
 
 See [official TensorFlow install instructions](https://www.tensorflow.org/install/pip).
@@ -91,22 +111,6 @@ Requires a nVidia graphics card with compute capability >= 3.0, recent nVidia dr
 See [official TensorFlow page about GPU support](https://www.tensorflow.org/install/gpu).
 ```bash
 python -m pip install --upgrade tensorflow-gpu
-```
-
-If you are working with Python 3.7 (which is included in the current Anaconda release), install TensorFlow 1.13 nightly builds:
-
-TensorFlow without GPU support:
-```bash
-python -m pip install --upgrade tf-nightly
-```
-
-TensorFlow with GPU support:
-
-Requires a nVidia graphics card with compute capability >= 6.0, recent nVidia drivers, CUDA 10.0 and cuDNN 7.4.
-
-See [official TensorFlow page about GPU support](https://www.tensorflow.org/install/gpu).
-```bash
-python -m pip install --upgrade tf-nightly-gpu
 ```
 
 ### Running Jupyter notebook
