@@ -13,7 +13,7 @@ through [**Google Cloud**](https://cloud.google.com/). The following instruction
 Deep learning requires lots of computational resources, so for this class we introduce the Google Cloud Platform to run and store your models for your convenience. You will each be provided with a coupon for $125, which roughly translates to 10 hours of compute time/week. You will use the same account for the entire semester - including the final project - so don't spend it all in one place!
 
 ### First time using Google Cloud:
-* Redeem your Google Cloud education grant with the coupon from [here](https://console.cloud.google.com/education). Use your own gmail account to log in to the Google Cloud console.
+* Redeem your Google Cloud education grant with the coupon emailed to you before class. Use your own gmail account to log in to the Google Cloud console.
 * Create a GCP project, enable billing and APIs following instructions [here](https://cloud.google.com/datalab/docs/quickstart#before-you-begin).
 * Install and initialize the Cloud SKD following instructions [here](https://cloud.google.com/sdk/docs/). You only need to initialize it once by running (the login window will pop up in your browser, log in using your gmail account and complete the rest of the steps from your command line as prompted): 
 ```bash
@@ -38,6 +38,7 @@ start using datalab. If everything worked correctly, you should see a screen lik
 </div>
 
 Click *upload* to upload the homework materials to your datalab and start working on your problem sets by clicking through `***.ipynb`.
+
 
 ### Pricing
 There is no charge for using Google Cloud Datalab. However, you do pay for any Google Cloud Platform resources you use with Cloud Datalab (compute and storage resources, etc.). E.g. you incur costs from the time of creation to the time of deletion of the Cloud Datalab VM instance. **Keep in mind that you only have limited budget with $125 coupon so don't let your instance run forever!**
