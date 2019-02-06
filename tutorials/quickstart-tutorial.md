@@ -10,7 +10,7 @@ assignments. Jupyter notebooks provide a web browser-based programming enviromen
 through [**Google Cloud**](https://cloud.google.com/). The following instructions will give you a quick-start guide for both ways. 
 
 ## Working from Google Cloud
-Deep learning requires lots of computational resources, so for this class we introduce the Google Cloud Platform to run and store your models for your convenience. You will each be provided with a coupon for $125, which roughly translates to 10 hours of compute time/week. You will use the same account for the entire semester - including the final project - so don't spend it all in one place!
+Deep learning requires lots of computational resources, so for this class we introduce the Google Cloud Platform to run and store your models for your convenience. You will each be provided with a coupon for $50, which roughly translates to 5 hours of compute time/week. You will use the same account for the entire semester - including the final project - so don't spend it all in one place!
 
 ### First time using Google Cloud:
 * Redeem your Google Cloud education grant with the coupon emailed to you before class. Use your own gmail account to log in to the Google Cloud console.
