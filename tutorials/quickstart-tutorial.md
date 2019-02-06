@@ -19,6 +19,7 @@ Deep learning requires lots of computational resources, so for this class we int
 ```bash
 gcloud init
 ```
+For Windows users, add the full path to `google-cloud-sdk\bin` into your `PATH` variable before using datalab command. 
 
 ### Set up and launch Cloud Datalab
 Following instructions [here](https://cloud.google.com/datalab/docs/quickstart#steps_to_set_up_and_open_cloud_datalab). Install `datalab` with gcloud:
