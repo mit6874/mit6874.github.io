@@ -58,14 +58,17 @@ ul {
 .materials-wrap {
   font-size: 18px;
 }
+
+.materials-item {
+  padding: 10px;
+  border-bottom: 1px solid #CCC;
+}
+
 .materials-item a{
   color: #000000;
   display: block;
-  padding: 3px;
 }
-.materials-item {
-  border-bottom: 1px solid #CCC;
-}
+
 .materials-item:nth-child(even) {
   background-color: #e3f6ff;
 }
