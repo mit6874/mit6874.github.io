@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="home">
   <div class="materials-wrap">
+    <!-- TODO: update links for sp2020 --> 
     <p>Additional course websites:</p>
     <ul>
         <li><a href="https://stellar.mit.edu/S/course/6/sp19/6.874/">MIT Stellar</a></li>
@@ -15,7 +16,7 @@ layout: default
 
     <p>Our aim is to enable you to evaluate a wide variety of solutions to key problems you will face in this rapidly developing field, and enable you to execute on new enabling solutions that can have large impact.</p>
     
-    <p>As part of the subject you will become an expert in using modern cloud resources to implement your solutions to challenging problems, first in problem sets that span a carefully chosen set of tasks, and then in an independent project. You will be programming using Python 3 and TensorFlow 1.12 in Jupyter Notebooks on the Google Cloud, a nod to the importance of carefully documenting your work so it can be precisely reproduced by others.</p>
+    <p>As part of the subject you will become an expert in using modern cloud resources to implement your solutions to challenging problems, first in problem sets that span a carefully chosen set of tasks, and then in an independent project. You will be programming using Python 3 and TensorFlow 2 in Jupyter Notebooks on the Google Cloud, a nod to the importance of carefully documenting your work so it can be precisely reproduced by others.</p>
 
 	<h2 class="module-header">Syllabus and schedule</h2>
     <table class="table">
@@ -24,13 +25,13 @@ layout: default
         </tr>
         <tr>
             <td>Lecture 1</td>
-            <td>Feb 05 1pm</td>
+            <td>Feb 04 1pm</td>
             <td>32-155</td>
-            <td>Machine learning in the computational life sciences</td>
+            <td>Scope of the subject, ML Intro</td>
             <td>
                 <ul>
                     <li>Read <a href="http://www.deeplearningbook.org/">Goodfellow</a> Chapter 1</li>
-                    <li><a href="assets/slides/6.874-lecture-1-2019.pdf">Lecture slides</a></li>
+                    <!-- <li><a href="assets/slides/6.874-lecture-1-2019.pdf">Lecture slides</a></li> -->
                 </ul>
             </td>
             <td>
@@ -46,84 +47,70 @@ layout: default
         </tr>
         <tr>
             <td>Lecture 2</td>
-            <td>Feb 07 1pm</td>
+            <td>Feb 06 1pm</td>
             <td>32-155</td>
-            <td>Optimizing Feedforward Networks</td>
+            <td>Learning MLPs</td>
             <td>
                 <ul>
                     <li>Read <a href="http://www.deeplearningbook.org/">Goodfellow</a> Chapter 6</li>
                     <li><a href="assets/slides/FeedForwardBackprop.pdf">Feed Forward Backprop</a></li>
-                    <li><a href="assets/slides/6.874-lecture-2-2019.pdf">Lecture slides</a></li>
+                    <!-- <li><a href="assets/slides/6.874-lecture-2-2019.pdf">Lecture slides</a></li> -->
                 </ul>
             </td>
             <td>
                 <ul>
                     <li><a href="https://github.com/aymericdamien/TensorFlow-Examples">Damien</a></li>
                     <li><a href="http://nicklocascio.com/tensorflow-crash-course">Nick Locascio</a></li>
-                    <li><a href="https://www.tensorflow.org/versions/r0.11/tutorials/index.html">TF site tutorials</a></li>
+                    <li><a href="https://www.tensorflow.org/tutorials">TF site tutorials</a></li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>Recitation 1</td>
-            <td>Feb 07 4pm<br/>Feb 08 4pm</td>
-            <td>36-156</td>
-            <td>Machine learning overview</td>
+            <td>Feb 06 4pm<br/>Feb 07 4pm</td>
+            <td>Room-TBD</td> <!-- TODO: confirm room --->
+            <td>ML and Google notebook overview</td>
             <td>
 		        <ul>
-                    <li><a href="assets/recitations/recitation1-2019.pdf">Recitation slides</a></li>
+                    <!-- <li><a href="assets/recitations/recitation1-2019.pdf">Recitation slides</a></li> -->
                 </ul>
 	        </td>
             <td></td>
         </tr>
         <tr>
             <td>Lecture 3</td>
-            <td>Feb 12 1pm</td>
+            <td>Feb 11 1pm</td>
             <td>32-155</td>
-            <td>Convolutional and recurrent neural networks</td>
+            <td>Model hypothesis space, convolutional neural networks</td>
             <td>
                 <ul>
-                    <li>Read <a href="http://www.deeplearningbook.org/">Goodfellow</a> Chapter 9 and 10</li>
-                    <li><a href="assets/slides/6.874-lecture-3-2019.pdf">Lecture slides</a></li>
+                    <li>Read <a href="http://www.deeplearningbook.org/">Goodfellow</a> Chapter 9</li>
+                    <!-- <li><a href="assets/slides/6.874-lecture-3-2019.pdf">Lecture slides</a></li> -->
                 </ul>
             </td>
             <td></td>
         </tr>
         <tr>
             <td>Lecture 4</td>
-            <td>Feb 14 1pm</td>
+            <td>Feb 13 1pm</td>
             <td>32-155</td>
-            <td>Introduction to protein-DNA interactions and ChIP-seq motif discovery</td>
+            <td>Recurrent neural networks</td>
             <td>
                 <ul>
-                    <li><a href="assets/slides/6.874-lecture-4-2019.pdf">Lecture slides</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=9_ggu8PKuLs">Manolis Kellis's lecture on Regulatory Genomics</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=qaalIf6bn1k">Manolis Kellis's lecture on Epigenomics and ChIP-seq</a></li>
+                    <li>Read <a href="http://www.deeplearningbook.org/">Goodfellow</a> Chapter 10</li>
+                    <!-- <li><a href="assets/slides/6.874-lecture-3-2019.pdf">Lecture slides</a></li> -->
                 </ul>
             </td>
-            <td>
-		        <ul>
-                    <li><a href="https://www.nature.com/articles/nrg2641">Peter Park ChIP-seq paper</a></li>
-                    <li><a href="https://www.nature.com/articles/nrg3306">Terrence Furey ChIP-seq paper</a></li>
-                </ul>
-	        </td>
-        </tr>
-        <tr class="warning">
-            <td>Deadline</td>
-            <td>Feb 14 11:59pm</td>
-            <td></td>
-            <td>PS1 due</td>
-            <td></td>
             <td></td>
         </tr>
         <tr>
             <td>Recitation 2</td>
-            <td>Feb 14 4pm<br />Feb 15 4pm</td>
-            <td>36-156</td>
+            <td>Feb 13 4pm<br />Feb 14 4pm</td>
+            <td>Room-TBD</td>
             <td>Neural networks</td>
             <td>
 		        <ul>
-                    <li><a href="assets/recitations/recitation2-2019.pdf">Recitation slides</a></li>
+                    <!-- <li><a href="assets/recitations/recitation2-2019.pdf">Recitation slides</a></li> -->
                     <li><a href="https://www.coursera.org/lecture/convolutional-neural-networks/convolutions-over-volume-ctQZz">Andrew Ng's CNN lectures</a></li>
                 </ul>
             </td>
@@ -131,20 +118,20 @@ layout: default
         </tr>
         <tr class="info">
             <td>No class</td>
-            <td>Feb 19</td>
+            <td>Feb 18</td>
             <td></td>
             <td>President’s Day</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>Lecture 5</td>
-            <td>Feb 21 1pm</td>
+            <td>Lecture 5<br />by Brandon Carter</td>
+            <td>Feb 20 1pm</td>
             <td>32-155</td>
-            <td>ML model interpretation  (gradient methods, SIS)</td>
+            <td>ML model interpretation I (SIS)</td>
             <td>
                 <ul>
-                    <li><a href="assets/slides/6.874-lecture-5-2019.pdf">Lecture slides</a></li>
+                    <!-- <li><a href="assets/slides/6.874-lecture-5-2019.pdf">Lecture slides</a></li> -->
                 </ul>
             </td>
             <td>
@@ -167,92 +154,34 @@ layout: default
                 </ul>
             </td>
         </tr>
+        <tr class="warning">
+            <td>Deadline</td>
+            <td>Feb 21 11:59pm</td>
+            <td></td>
+            <td>PS1 due</td>
+            <td></td>
+            <td></td>
+        </tr>
         <tr>
             <td>Recitation 3</td>
-            <td>Feb 21 4pm<br />Feb 22 4pm</td>
-            <td>36-156</td>
-            <td>Motifs, ChIP-seq, models</td>
+            <td>Feb 20 4pm<br />Feb 21 4pm</td>
+            <td>Room-TBD</td>
+            <td>Interpreting ML models</td>
             <td>
 		        <ul>
-                    <li><a href="assets/recitations/Recitation3-2019.pdf">Recitation slides</a></li>
+                    <!-- <li><a href="assets/recitations/Recitation3-2019.pdf">Recitation slides</a></li> -->
                 </ul>
 		    </td>
             <td></td>
         </tr>
         <tr>
             <td>Lecture 6</td>
-            <td>Feb 26 1pm</td>
-            <td>32-155</td>
-            <td>PCA, dimensionality reduction (t-SNE), autoencoders</td>
-            <td>
-                <ul>
-                    <li><a href="assets/slides/6.874-lecture-6-2019.pdf">Lecture slides</a></li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li><a href="assets/misc/maaten.pdf">van der Maaten and Hinton (t-SNE)</a></li>
-                </ul>
-            </td>
-        </tr>
-        <tr> 
-            <td>Lecture 7</td>
-            <td>Feb 28 1pm</td>
-            <td>32-155</td>
-            <td>The expressed genome and RNA splicing (RNA-seq)</td>
-            <td>
-		        <ul>
-                    <li><a href="assets/slides/6.874-lecture-7-2019.pdf">Lecture slides</a></li>
-                </ul>
-	        </td>
-            <td>
-                <ul>
-                    <li><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8">RNA-seq data analysis</a></li>
-                    <li><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0702-5">Comparative assessment of methods</a></li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Recitation 4</td>
-            <td>Feb 28 4pm<br /><span style="color: red">Feb 28 5pm</span></td>
-            <td>36-156</td>
-            <td>Model interpretation</td>
-            <td>
-                <ul>
-                    <li><a href="assets/recitations/recitation4-2019.pptx">Recitation slides</a></li>
-                </ul>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Lecture 8</td>
-            <td>Mar 05 1pm</td>
-            <td>32-155</td>
-            <td>scRNA seq and cell labeling</td>
-            <td>
-		        <ul>
-                    <li><a href="assets/slides/6.874-lecture-8-2019.pdf">Lecture slides</a></li>
-		            <li><a href="assets/BIC_Scores.pdf">BIC scores</a></li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li><a href="assets/monocle-cole.pdf">Monocle-cole</a></li>
-                    <li><a href="assets/scRNA-disease.pdf">scRNA-disease</a></li>
-                    <li><a href="assets/scRNA-integration.pdf">scRNA-integration</a></li>
-                    <li><a href="assets/scRNA-pipelines.pdf">scRNA-pipelines</a></li>
-                    <li><a href="assets/scRNA-umi.pdf">scRNA-umi</a></li>
-                </ul>
-	        </td>
-        </tr>
-        <tr>
-            <td>Lecture 9</td>
-            <td>Mar 07 1pm</td>
+            <td>Feb 25 1pm</td>
             <td>32-155</td>
             <td>Chromatin accessibility</td>
             <td>
-		        <ul>
-                    <li><a href="assets/slides/6.874-lecture-9-2019.pdf">Lecture slides</a></li>
+                <ul>
+                    <!-- <li><a href="assets/slides/6.874-lecture-6-2019.pdf">Lecture slides</a></li> -->
                 </ul>
             </td>
             <td>
@@ -263,34 +192,88 @@ layout: default
                 </ul>
             </td>
         </tr>
-        <tr class="warning">
-            <td>Deadline</td>
-            <td>Mar 07 11:59pm</td>
-            <td></td>
-            <td>PS2 due</td>
-            <td></td>
-            <td></td>
-        </tr>
         <tr>
-            <td>Recitation 5</td>
-            <td>Mar 07 4pm<br />Mar 08 4pm</td>
-            <td>36-156</td>
-            <td>Dimensionality reduction</td>
+            <td>Lecture 7</td>
+            <td>Feb 27 1pm</td>
+            <td>32-155</td>
+            <td>Protein-DNA interactions and ChIP seq motif discovery</td>
             <td>
                 <ul>
-                    <li><a href="assets/recitations/recitation5-2019.pdf">Recitation slides</a></li>
+                    <!-- <li><a href="assets/slides/6.874-lecture-4-2019.pdf">Lecture slides</a></li> -->
+                    <li><a href="https://www.youtube.com/watch?v=9_ggu8PKuLs">Manolis Kellis's lecture on Regulatory Genomics</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=qaalIf6bn1k">Manolis Kellis's lecture on Epigenomics and ChIP-seq</a></li>
+                </ul>
+            </td>
+            <td>
+		        <ul>
+                    <li><a href="https://www.nature.com/articles/nrg2641">Peter Park ChIP-seq paper</a></li>
+                    <li><a href="https://www.nature.com/articles/nrg3306">Terrence Furey ChIP-seq paper</a></li>
+                </ul>
+	        </td>
+        </tr>
+        <tr>
+            <td>Recitation 4</td>
+            <td>Feb 27 4pm<br />Feb 28 4pm</td>
+            <td>Room-TBD</td>
+            <td>Chromatin and gene regulation</td>
+            <td>
+                <ul>
+                    <!-- <li><a href="assets/recitations/recitation4-2019.pptx">Recitation slides</a></li> -->
                 </ul>
             </td>
             <td></td>
         </tr>
         <tr>
+            <td>Lecture 8</td>
+            <td>Mar 03 1pm</td>
+            <td>32-155</td>
+            <td>Model uncertainty and experiment design</td>
+            <td>
+		        <ul>
+                    <!-- <li><a href="assets/slides/6.874-lecture-8-2019.pdf">Lecture slides</a></li> -->
+                </ul>
+            </td>
+            <td>
+                <ul>
+                </ul>
+	        </td>
+        </tr>
+        <tr>
+            <td>Lecture 9</td>
+            <td>Mar 05 1pm</td>
+            <td>32-155</td>
+            <td>Generative models (gradients, VAEs, GANs)</td>
+            <td>
+                <ul>
+                    <!-- <li><a href="assets/slides/6.874-lecture-13-2019.pdf">Lecture slides</a></li> -->
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="assets/misc/l13/autoencoding-varational-bayes.pdf">Auto-Encoding Variational Bayes</a></li>
+                    <li><a href="assets/misc/l13/cyclegans.pdf">Cycle-Consistent Adversarial Networks</a></li>
+                    <li><a href="assets/misc/l13/gans.pdf">Generative Adversarial Nets</a></li>
+                    <li><a href="assets/misc/l13/Seq2betterSeq.pdf">Sequence to Better Sequence</a></li>
+                    <li><a href="assets/misc/l13/wgan.pdf">Wasserstein GAN</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Recitation 5</td>
+            <td>Mar 05 4pm<br />Mar 06 4pm</td>
+            <td>Room-TBD</td>
+            <td>Model uncertainty</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
             <td>Lecture 10</td>
-            <td>Mar 12 1pm</td>
+            <td>Mar 10 1pm</td>
             <td>32-155</td>
             <td>Chromatin marks and 3D genome interactions</td>
             <td>
 		        <ul>
-                    <li><a href="assets/slides/6.874-lecture-10-2019.pdf">Lecture slides</a></li>
+                    <!-- <li><a href="assets/slides/6.874-lecture-10-2019.pdf">Lecture slides</a></li> -->
                 </ul>
             </td>
             <td>
@@ -305,67 +288,67 @@ layout: default
         </tr>
         <tr>
             <td>Lecture 11</td>
-            <td>Mar 14 1pm</td>
+            <td>March 12 1pm</td>
             <td>32-155</td>
-            <td>Model Uncertainty and Experiment Design (Bayesian Optimization)</td>
+            <td>Dimensionality reduction (PCA, t-SNE, autoencoders)</td>
             <td>
                 <ul>
-                    <li><a href="assets/slides/6.874-lecture-11-2019.pdf">Lecture slides</a></li>
+                    <!-- <li><a href="assets/slides/6.874-lecture-6-2019.pdf">Lecture slides</a></li> -->
                 </ul>
             </td>
+            <td>
+                <ul>
+                    <li><a href="assets/misc/maaten.pdf">van der Maaten and Hinton (t-SNE)</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="warning">
+            <td>Deadline</td>
+            <td>Mar 13 11:59pm</td>
+            <td></td>
+            <td>PS2 due</td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
             <td>Recitation 6</td>
-            <td>Mar 14 4pm<br />Mar 15 4pm</td>
-            <td>36-156</td>
-            <td>Model uncertainty</td>
+            <td>Mar 12 4pm<br />Mar 13 4pm</td>
+            <td>Room-TBD</td>
+            <td>Regulatory element models</td>
             <td></td>
             <td></td>
         </tr>
-        <tr>
+        <tr> 
             <td>Lecture 12</td>
+            <td>Mar 17 1pm</td>
+            <td>32-155</td>
+            <td>The expressed genome and RNA splicing (RNA-seq)</td>
+            <td>
+		        <ul>
+                    <!-- <li><a href="assets/slides/6.874-lecture-7-2019.pdf">Lecture slides</a></li> -->
+                </ul>
+	        </td>
+            <td>
+                <ul>
+                    <li><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8">RNA-seq data analysis</a></li>
+                    <li><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0702-5">Comparative assessment of methods</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="danger">
+            <td>Quiz 1</td>
             <td>Mar 19 1pm</td>
             <td>32-155</td>
-            <td>Project meetings in class</td>
-            <td>
-                <ul>
-                    <li><a href="assets/slides/6.874-lecture-12-2019.pdf">Lecture slides</a></li>
-                    <li><a href="assets/final-project-2019.pdf">Project description</a></li>
-                </ul>
-            </td>
+            <td>Quiz 1</td>
+            <td></td>
             <td></td>
         </tr>
-        <tr>
-            <td>Lecture 13</td>
-            <td>Mar 21 1pm</td>
-            <td>32-155</td>
-            <td>Generative Models: gradients, VAEs, GANs</td>
-            <td>
-                <ul>
-                    <li><a href="assets/slides/6.874-lecture-13-2019.pdf">Lecture slides</a></li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li><a href="assets/misc/l13/autoencoding-varational-bayes.pdf">Auto-Encoding Variational Bayes</a></li>
-                    <li><a href="assets/misc/l13/cyclegans.pdf">Cycle-Consistent Adversarial Networks</a></li>
-                    <li><a href="assets/misc/l13/gans.pdf">Generative Adversarial Nets</a></li>
-                    <li><a href="assets/misc/l13/Seq2betterSeq.pdf">Sequence to Better Sequence</a></li>
-                    <li><a href="assets/misc/l13/wgan.pdf">Wasserstein GAN</a></li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Recitation 7</td>
-            <td>Mar 21 4pm<br />Mar 22 4pm</td>
-            <td>36-156</td>
-            <td>Hyperparameter optimization</td>
-            <td>
-                <ul>
-                    <li><a href="assets/recitations/recitation7-2019.pdf">Recitation slides</a></li>
-                </ul>
-            </td>
+        <tr class="info">
+            <td>No class</td>
+            <td>Mar 24</td>
+            <td></td>
+            <td>Spring break</td>
+            <td></td>
             <td></td>
         </tr>
         <tr class="info">
@@ -376,27 +359,153 @@ layout: default
             <td></td>
             <td></td>
         </tr>
-        <tr class="info">
-            <td>No class</td>
-            <td>Mar 30</td>
-            <td></td>
-            <td>Spring break</td>
-            <td></td>
-            <td></td>
-        </tr>
         <tr>
             <td>Lecture 14</td>
-            <td>Apr 02 1pm</td>
+            <td>Mar 31 1pm</td>
             <td>32-155</td>
-            <td>Generative models and Therapeutic design</td>
+            <td>scRNA-seq and cell labeling</td>
+            <td>
+		        <ul>
+                    <!-- <li><a href="assets/slides/6.874-lecture-8-2019.pdf">Lecture slides</a></li> -->
+		            <li><a href="assets/BIC_Scores.pdf">BIC scores</a></li>
+                </ul>
+            </td>
             <td>
                 <ul>
-                    <li><a href="assets/slides/6.874-lecture-14-2019.pdf">Lecture slides</a></li>
+                    <li><a href="assets/monocle-cole.pdf">Monocle-cole</a></li>
+                    <li><a href="assets/scRNA-disease.pdf">scRNA-disease</a></li>
+                    <li><a href="assets/scRNA-integration.pdf">scRNA-integration</a></li>
+                    <li><a href="assets/scRNA-pipelines.pdf">scRNA-pipelines</a></li>
+                    <li><a href="assets/scRNA-umi.pdf">scRNA-umi</a></li>
+                </ul>
+	        </td>
+        </tr>
+        <tr>
+            <td>Lecture 15</td>
+            <td>Apr 02 1pm</td>
+            <td>32-155</td>
+            <td>Manifolds, manifold mapping, word2vec</td>
+            <td>
+                <ul>
+                    <!-- <li><a href="assets/slides/6.874-lecture-14-2019.pdf">Lecture slides</a></li> -->
                 </ul>
             </td>
             <td>
                 <ul>
                     <li><a href="assets/misc/l14/elmo-model.pdf">Deep contextualized word representations</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="warning">
+            <td>Deadline</td>
+            <td>Apr 03 11:59pm</td>
+            <td></td>
+            <td>PS3 due</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Recitation 7</td>
+            <td>Apr 02 4pm<br />Apr 03 4pm</td>
+            <td>Room-TBD</td>
+            <td>Dimensionality reduction</td>
+            <td>
+                <ul>
+                    <!-- <li><a href="assets/recitations/recitation5-2019.pdf">Recitation slides</a></li> -->
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lecture 16</td>
+            <td>Apr 07 1pm</td>
+            <td>32-155</td>
+            <td>Genetics + eQTL prediction and variant prioritization</td>
+            <td>
+                <ul>
+                    <!-- <li><a href="assets/slides/6.874-lecture-16-2019.pdf">Lecture slides</a></li> -->
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lecture 17</td>
+            <td>Apr 09 1pm</td>
+            <td>32-155</td>
+            <td>STARR-seq and GWAS studies</td>
+            <td>
+                <ul>
+                    <!-- <li><a href="assets/slides/6.874-lecture-16-2019.pdf">Lecture slides</a></li> -->
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Recitation 8</td>
+            <td>Apr 09 4pm<br />Apr 10 4pm</td>
+            <td>Room-TBD</td>
+            <td>Genetics</td>
+            <td>
+                <ul>
+                    <!-- <li><a href="assets/recitations/recitation8-2019.pptx">Recitation slides</a></li> -->
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lecture 18</td>
+            <td>Apr 14 1pm</td>
+            <td>32-155</td>
+            <td>Genetics Continued</td>
+            <td>
+                <ul>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lecture 19</td>
+            <td>Apr 16 1pm</td>
+            <td>32-155</td>
+            <td>High-throughput experimentation</td>
+            <td>
+                <ul>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="warning">
+            <td>Deadline</td>
+            <td>Apr 17 11:59pm</td>
+            <td></td>
+            <td>PS4 due</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Recitation 9</td>
+            <td>Apr 16 4pm<br />Apr 17 4pm</td>
+            <td>Room-TBD</td>
+            <td>Protein structure prediction</td>
+            <td>
+                <ul>
+                    <!-- <li><a href="assets/recitations/recitation8-2019.pptx">Recitation slides</a></li> -->
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lecture 20</td>
+            <td>Apr 21 1pm</td>
+            <td>32-155</td>
+            <td>Therapeutic design</td>
+            <td>
+                <ul>
+                    <!-- <li><a href="assets/slides/6.874-lecture-14-2019.pdf">Lecture slides</a></li> -->
+                </ul>
+            </td>
+            <td>
+                <ul>
                     <li><a href="assets/misc/l14/gated-graph-nets.pdf">Gated Graph Sequence Neural Networks</a></li>
                     <li><a href="assets/misc/l14/molecule-net.pdf">MoleculeNet</a></li>
                     <li><a href="assets/misc/l14/potentialnet-acs.pdf">PotentialNet</a></li>
@@ -404,92 +513,39 @@ layout: default
             </td>
         </tr>
         <tr>
-            <td>Lecture 15<br />by Adrian Dalca</td>
-            <td>Apr 04 1pm</td>
+            <td>Lecture 21<br />by Adrian Dalca</td>
+            <td>Apr 23 1pm</td>
             <td>32-155</td>
             <td>Imaging and genotype to phenotype</td>
             <td>
                 <ul>
-                    <li><a href="assets/slides/6.874-lecture-15-2019.pdf">Lecture slides</a></li>
+                    <!-- <li><a href="assets/slides/6.874-lecture-15-2019.pdf">Lecture slides</a></li> -->
                 </ul>
             </td>
-            <td></td>
-        </tr>
-        <tr class="warning">
-            <td>Deadline</td>
-            <td>Apr 04 11:59pm</td>
-            <td></td>
-            <td>PS3 due</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Recitation 8</td>
-            <td>Apr 04 4pm<br />Apr 05 4pm</td>
-            <td>36-156</td>
-            <td>Protein structure prediction</td>
-            <td>
-                <ul>
-                    <li><a href="assets/recitations/recitation8-2019.pptx">Recitation slides</a></li>
-                </ul>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Lecture 16<br />by Haoyang Zeng</td>
-            <td>Apr 09 1pm</td>
-            <td>32-155</td>
-            <td>eQTL prediction and variant prioritization</td>
-            <td>
-                <ul>
-                    <li><a href="assets/slides/6.874-lecture-16-2019.pdf">Lecture slides</a></li>
-                </ul>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Apr 11</td>
-            <td></td>
-            <td>Project work</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr class="warning">
-            <td>Deadline</td>
-            <td>Apr 11 11:59pm</td>
-            <td></td>
-            <td>Project proposal due</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr class="info">
-            <td>No class</td>
-            <td>Apr 16</td>
-            <td></td>
-            <td>Patriots' Day</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Apr 18 1pm</td>
-            <td>32-155</td>
-            <td>Exam review with TAs</td>
-            <td></td>
             <td></td>
         </tr>
         <tr class="danger">
-            <td>Exam</td>
-            <td>Apr 23 1pm</td>
+            <td>Quiz 2</td>
+            <td>Apr 28 1pm</td>
             <td>32-155</td>
-            <td>Exam</td>
+            <td>Quiz 2</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
+            <td>Lecture 23</td>
+            <td>Apr 30 1pm</td>
+            <td>32-155</td>
+            <td>How to write, how to present</td>
+            <td>
+                <ul>
+                </ul>
+            </td>
             <td></td>
-            <td>Apr 25</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>May 05</td>
             <td></td>
             <td>Project work</td>
             <td></td>
@@ -497,55 +553,7 @@ layout: default
         </tr>
         <tr>
             <td></td>
-            <td>Apr 30</td>
-            <td></td>
-            <td>Project work</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>May 2</td>
-            <td></td>
-            <td>Project work</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>May 7</td>
-            <td></td>
-            <td>Project work</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>May 9</td>
-            <td></td>
-            <td>Project work</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr class="warning">
-            <td>Deadline</td>
-            <td>May 13 11:59pm</td>
-            <td></td>
-            <td>Project report due</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr class="warning">
-            <td>Deadline</td>
-            <td>May 13 11:59pm</td>
-            <td></td>
-            <td>Project presentation due</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>May 14 1pm</td>
+            <td>May 07 1pm</td>
             <td>32-155</td>
             <td>Project presentations I</td>
             <td></td>
@@ -553,7 +561,7 @@ layout: default
         </tr>
         <tr>
             <td></td>
-            <td>May 16 1pm</td>
+            <td>May 12 1pm</td>
             <td>32-155</td>
             <td>Project presentations II</td>
             <td></td>
@@ -570,7 +578,7 @@ layout: default
     <h2 class="module-header">Class meeting times and places</h2>
     <ul>
         <li>Lecture: TR1-2.30 (32-155)</li>
-        <li>Recitation: RF4-5 (36-156)</li>
+        <li>Recitation: RF4-5 (Room-TBD)</li>
     </ul>
 
     <h2 class="module-header">Contact</h2>
@@ -581,20 +589,24 @@ layout: default
         David Gifford (gifford@mit.edu): Office hours by appointment
     </div>
     <div class="materials-item">
-        Siddhartha Jain (sjX@mit.edu) where X="1": 4pm on Tuesdays (Stata center G5 lounge - right outside of Gates tower elevators on 5th floor)
+        Manolis Kellis (manoli@mit.edu): Office hours by appointment
     </div>
     <div class="materials-item">
-        Konstantin Krismer (krismer@mit.edu): 4:30pm on Tuesdays (Stata center G5 lounge)
+        Sachit Dinesh Saksena (sachit@mit.edu): Time and Place TBD
     </div>
     <div class="materials-item">
-        Ge (Saber) Liu (geliu@mit.edu): 5pm on Tuesdays (Stata center G5 lounge)
+        Corban Swain (c_swain@mit.edu): Time and Place TBD
+    </div>
+    <div class="materials-item">
+        Timothy Fei Truong Jr (ttruong@mit.edu): Time and Place TBD
     </div>
 
     <h2 class="module-header">Grading</h2>
     <p>Grading will be based upon five programming-intensive problem sets (40%), a comprehensive exam (30%), and a final project (30%). Attendance in lecture is important as the class moves quickly and you will need to be present. There will be an option for some students to give presentations on relevant research papers from the syllabus list. If you opt to present a paper in class it will be graded and substitute for a problem set of your choice. For students enrolled in one of the graduate versions of this class (6.874, 20.490, and HST.506) there will be an extra section on some problem sets. You can use three late days for problem set deadlines (or email from Student Support Services - S3).</p>
 
     <h2 class="module-header">Project</h2>
-    <p>This subject has a substantial deep learning project component. Projects will be completed either as a team of two or individually. 6.874 students must complete an individual project unless permission from the teaching staff is given to work as a team. You are free to choose a problem in the life sciences and develop a deep learning solution using the subject’s cloud resources. Ideas will be provided along with example data, and you can consult the teaching staff to get advice for other ideas or to refine your own ideas. A detailed project description can be found <a target="_blank" href="assets/final-project-2019.pdf">here</a>.</p>
+    <!-- TODO: link to project details A detailed project description can be found <a target="_blank" href="assets/final-project-2019.pdf">here</a>. -->
+    <p>This subject has a substantial deep learning project component. Projects will be completed either as a team of two or individually. 6.874 students must complete an individual project unless permission from the teaching staff is given to work as a team. You are free to choose a problem in the life sciences and develop a deep learning solution using the subject’s cloud resources. Ideas will be provided along with example data, and you can consult the teaching staff to get advice for other ideas or to refine your own ideas.</p>
 
     <h2 class="module-header">Textbook</h2>
     <p>We will be using the book “Deep Learning” by Goodfellow, Bengio, and Courville. You can find the book online <a target="_blank" href="http://deeplearningbook.org">here</a> and <a target="_blank" href="https://github.com/janishar/mit-deep-learning-book-pdf">here</a>. You can purchase a hard copy at <a target="_blank" href="https://mitpress.mit.edu/books/deep-learning">MIT Press</a> or on Amazon.</p>
