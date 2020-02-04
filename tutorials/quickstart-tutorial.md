@@ -7,7 +7,7 @@ permalink: /tutorials/quickstart/
 # Getting started
 In this class, we will use [Jupyter notebooks](http://jupyter.org/) for all the assignments. Jupyter notebooks provide a web browser-based programming enviroment where you can execude code in blocks, display the output figure, and annotate in Markdown *in situ*. With these properties, it's been widely used in the scientific community to make research project reproducible. You can work on your assignment either **locally** or on a virtual machine through [**Google Cloud**](https://cloud.google.com/). The following instructions will give you a quick-start guide for both ways. 
 
-## Getting Started with the Google Cloud Platform
+## Working from Google Cloud
 
 Deep learning tends to require extremely large networks and millions if not billions of training points, so for this class we will be using the Google Cloud Platform to run and store our models (which can then be transferred locally). You will each be provided with a coupon for $50, which roughly translates to 5 hours of compute time/week. You will use the same account for the entire semester - including the final project - so don't spend it all in one place!
 
