@@ -82,12 +82,12 @@ gcloud components install datalab
 ### Create a datalab instance
 Create a Datalab instance with just CPUs
 ```
-datalab create ps1-datalab
+datalab create example-datalab
 ```
 
 Alternatively, you can create one with GPUs (could be useful for ps2 and ps3):
 ```
-datalab beta create-gpu ps1-datalab
+datalab beta create-gpu example-datalab
 ```
 
 ### Run a Jupyter Notebook on the Datalab instance
@@ -98,7 +98,7 @@ Now, upload the Jupyter notebook you want to run to the datalab instance via the
 ### Close the Datalab instance
 Finally, when you are done, you can kill the active command. Then, delete the instance to avoid further billing with: 
 ```
-datalab delete --delete-disk ps1-datalab
+datalab delete --delete-disk example-datalab
 ```
 NOTE: Ensure you have downloadeded your work before deleting the instance. 
 
