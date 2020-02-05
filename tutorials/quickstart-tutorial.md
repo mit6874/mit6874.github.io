@@ -90,6 +90,23 @@ Alternatively, you can create one with GPUs (could be useful for ps2 and ps3):
 datalab beta create-gpu example-datalab
 ```
 
+### Connect to a Datalab instance
+
+When you create a datalab instance using `datalab create ...` you should automatically be connected through port 8081 (i.e. [This link should take you to the datalab filesystem](http://localhost:8081)). However if your session is disconected you can reconnect to the instance using:
+
+```bash
+datalab connect {instance-name}
+```
+where you would replace `{instance-name}` with the name of the instance you created with the `datalab create command. You can also use this command to connect to an existing datalab instance that is stopped, but not deleted.
+
+You can see the list of all of the instances you have avalible to connect to by the following steps:
+1. Point your browser to the [Google Cloud Platform Dashboard](https://console.cloud.google.com/home/dashboard)
+1. Click the hambuger menu in the top left and click "Compute Engine > VM instances".
+1. Select the project name that you creted when initializing GCloud from the top dropdown list.
+1. You should now see a list of your VM Instances.
+
+You can reconnect to any of these instances by using the `datalab-connect` command as described above, using the name provided in the "Name" column.
+
 ### Run a Jupyter Notebook on the Datalab instance
 In your browser, navigate to http://localhost:8081 
 
