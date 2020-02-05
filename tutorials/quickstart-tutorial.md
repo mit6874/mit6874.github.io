@@ -101,8 +101,8 @@ where you would replace `{instance-name}` with the name of the instance you crea
 
 You can **see the list of all of the instances you have avalible** to connect to by the following steps:
 1. Point your browser to the [Google Cloud Platform Dashboard](https://console.cloud.google.com/home/dashboard)
+1. Select the project name that you creted when initializing GCloud from the top dropdown list (to the right of the "Google Cloud Platform" header).
 1. Click the hambuger menu in the top left and click "Compute Engine > VM instances".
-1. Select the project name that you creted when initializing GCloud from the top dropdown list.
 1. You should now see a list of your VM Instances.
 
 You can reconnect to any of these instances by using the `datalab-connect` command as described above, using the name provided in the "Name" column.
