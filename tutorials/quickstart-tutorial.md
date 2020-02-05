@@ -123,7 +123,7 @@ If you intend to reconnect to an instance you can instead use the `stop` command
 ```bash
 datalab stop {instance-name}
 ```
-where you would replace `{instance-name}` with the name of the instance you would like to stop. To reconnect to this instance you would follow the instructions described in the [#Connect to a Datalab instance] section above. Stopping the instance should preserve the file system while preventing further charges from running the virtual machine (however, there can still be a small trickle charge for maintaing the disk). *NOTE: Even if you are only stopping your instance, it is important to download and backup your work before doing so.*
+where you would replace `{instance-name}` with the name of the instance you would like to stop. To reconnect to this instance you would follow the instructions described in the "Connect to a Datalab instance" section above. Stopping the instance should preserve the file system while preventing further charges from running the virtual machine (however, there can still be a small trickle charge for maintaing the disk). *NOTE: Even if you are only stopping your instance, it is important to download and backup your work before doing so.*
 
 You can visit the [Google Cloud Console](https://console.cloud.google.com/) for an overview of your cloud environment e.g. to view billing information.
 
