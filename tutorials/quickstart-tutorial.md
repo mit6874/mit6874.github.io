@@ -151,40 +151,10 @@ python3 -m pip install scipy
 
 #### Python 3.7
 
-If you are working with Python 3.7 (which is included in the current Anaconda release), install TensorFlow 1.13 nightly builds.
+If you are working with Python 3.7 (which is included in the current Anaconda release), install TensorFlow 2.
 
-TensorFlow without GPU support:
-```bash
-python -m pip install --upgrade tf-nightly
-```
-
-TensorFlow with GPU support:
-
-Requires a nVidia graphics card with compute capability >= 6.0, recent nVidia drivers, CUDA 10.0 and cuDNN 7.4.
-
-See [official TensorFlow page about GPU support](https://www.tensorflow.org/install/gpu).
-```bash
-python -m pip install --upgrade tf-nightly-gpu
-```
-
-#### Python 3.6 and older
-
-If you are working with Python 3.6 or older, install TensorFlow 1.12.0 using the following commands:
-
-See [official TensorFlow install instructions](https://www.tensorflow.org/install/pip).
-
-TensorFlow without GPU support:
 ```bash
 python -m pip install --upgrade tensorflow
-```
-
-TensorFlow with GPU support:
-
-Requires a nVidia graphics card with compute capability >= 3.0, recent nVidia drivers, CUDA 9.0 and cuDNN >= 7.2.
-
-See [official TensorFlow page about GPU support](https://www.tensorflow.org/install/gpu).
-```bash
-python -m pip install --upgrade tensorflow-gpu
 ```
 
 ### Running Jupyter notebook
@@ -192,10 +162,7 @@ Once you install Anoconda, Jupyter is automatically installed already. You can s
 ```bash
 jupyter notebook
 ```
-Once Jupyter is running, point your web browser at [http://localhost:8888](http://localhost:8888) to
-start using IPython notebooks. If everything worked correctly, you should
-see a screen like this, showing all available IPython notebooks in the current
-directory:
+Once Jupyter is running, point your web browser at [http://localhost:8888](http://localhost:8888) to start using Jupyter notebooks. If everything worked correctly, you should see a screen like this, showing all available Jupyter notebooks in the current directory:
 
 <div class='fig figcenter'>
   <img src='/assets/ipynotebook.png'>
