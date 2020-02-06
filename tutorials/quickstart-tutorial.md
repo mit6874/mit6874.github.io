@@ -47,7 +47,7 @@ The Cloud SDK is a set of command line tools that allow you to manage resources 
 - A terminal should pop up. Follow the prompts to complete the installation:
 	- Log in when prompted (the login window will pop up in your browser, log in using your Google account)
 	- Pick the cloud project to use, using the unique id assigned to the project you just created (see the Create a new project section)
-	- Set the default "Compute Region and Zone" to "us-east1-b"
+	- Set the default "Compute Region and Zone" to "us-east1-d"
 
 #### MacOS and Linux
 - Download the Cloud SDK for MacOS [google-cloud-sdk-277.0.0-darwin-x86_64.tar.gz](https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-277.0.0-darwin-x86_64.tar.gz) or for Linux [google-cloud-sdk-277.0.0-linux-x86_64.tar.gz](https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-277.0.0-linux-x86_64.tar.gz)
@@ -65,7 +65,7 @@ The Cloud SDK is a set of command line tools that allow you to manage resources 
 		```
 	- Log in when prompted (the login window will pop up in your browser, log in using your Google account)
 	- Pick the cloud project to use, using the unique id assigned to the project you just created (see the Create a new project section)
-	- Set the default "Compute Region and Zone" to "us-east1-b"
+	- Set the default "Compute Region and Zone" to "us-east1-d"
 
 
 ## Set up a Cloud Datalab
@@ -80,19 +80,15 @@ gcloud components install datalab
 ```
 
 ### Create a datalab instance
-Create a Datalab instance with just CPUs
+Create a Datalab instance with the name `example-datalab` and just 1 CPU
 ```
-datalab create example-datalab
+datalab create example-datalab --machine-type n1-standard-1
 ```
-
-Alternatively, you can create one with GPUs (could be useful for ps2 and ps3):
-```
-datalab beta create-gpu example-datalab
-```
+A full list of machine types can be viewed [here](https://cloud.google.com/compute/docs/machine-types#general_purpose).
 
 ### Connect to a Datalab instance
 
-When you create a Datalab instance using `datalab create ...` you should automatically be connected through port 8081 (i.e. [This link should take you to the datalab filesystem](http://localhost:8081)). However if your session is disconected you can reconnect to the instance using:
+When you create a Datalab instance using `datalab create ...` you should automatically be connected through port 8081 (i.e. going to [http://localhost:8081](http://localhost:8081) should take you to the datalab filesystem). However if your session is disconected you can reconnect to the instance using:
 
 ```bash
 datalab connect {instance-name}
@@ -101,7 +97,7 @@ where you would replace `{instance-name}` with the name of the instance you crea
 
 You can **see the list of all of the instances you have avalible** to connect to by the following steps:
 1. Point your browser to the [Google Cloud Platform Dashboard](https://console.cloud.google.com/home/dashboard)
-1. Select the project name that you creted when initializing GCloud from the top dropdown list (to the right of the "Google Cloud Platform" header).
+1. Select the project name that you created when initializing GCloud from the top dropdown list (to the right of the "Google Cloud Platform" header).
 1. Click the hambuger menu in the top left and click "Compute Engine > VM instances".
 1. You should now see a list of your VM Instances.
 
