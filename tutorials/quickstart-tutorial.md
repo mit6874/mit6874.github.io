@@ -22,10 +22,15 @@ You can do this either by clicking on "Redeem now" in the email coupon, or by vi
 - Click "CREATE PROJECT"
 - Enter a project name
 - Select "Computational Systems Biology: Deep Learning" as the billing account, if it is not already selected
+	- If you do not see a field to select a billing account, continue to the next step, and make sure to follow the instructions under "Verify billing information"
+- Select "No organization" as the location (this should be the default)
 - Click "Create"
 - The project will be given a unique project id e.g. affable-ring-631231. Remember this id for a later step.
 
 More information for creating, updating, or deleting a Cloud Platform project can be found [here](https://cloud.google.com/resource-manager/docs/creating-managing-projects). 
+
+### Verify billing information
+You can proceed directly to the next step if you have already selected "Computational Systems Biology: Deep Learning" as the billing account, or if this is your first time using Google Cloud (in which case billing should automatically be set up to use the credits you redeemed earlier). Otherwise, follow the instructions [here](https://cloud.google.com/billing/docs/how-to/modify-project#to_view_the_account_linked_to_a_project_do_the_following) to verify that billing is set up correctly (i.e. to use the $50 credit, rather than another source, like your own credit card).
 
 ### Enable the Google Compute Engine and Cloud Source Repositories APIs for the project
 
@@ -109,7 +114,7 @@ In your browser, navigate to http://localhost:8081
 Now, upload the Jupyter notebook you want to run to the datalab instance via the “Upload” button.
 
 ### Close the Datalab instance
-Finally, when you are done, you can kill the active command. Then, delete the instance to avoid further billing with: 
+Finally, when you are done, you can kill the active command (by typing Ctrl-C in the terminal). Then, delete the instance to avoid further billing with: 
 ```
 datalab delete --delete-disk example-datalab
 ```
